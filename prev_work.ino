@@ -68,7 +68,7 @@ void loop()
             Serial.print("No response assigned ");
             Serial.println(DO);
         }
-        delay(100);
+        delay(50);
         turnOFF();
         DO_float = atof((char *)buf);
         // Serial.print(DO);
